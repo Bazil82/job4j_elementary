@@ -9,8 +9,8 @@ public class Point {
     public static void main(String[] args) {
         double res = Point.distance(0, 0, 2, 0);
         System.out.println("result (0,0) to (2,0) " + res);
-        res = Point.distance(3, 2, 5, 6);
-        System.out.println("result (3,2) to (5,6) " + res);
+        res = Point.distance(3, 10, 5, 6);
+        System.out.println("result (3,10) to (5,6) " + res);
         res = Point.distance(0, 7, 0, 0);
         System.out.println("result (3,2) to (5,6) " + res);
     }
