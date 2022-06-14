@@ -17,7 +17,7 @@ public class PointTest {
     }
 
     @Test
-    public void when310to56then4() {
+    public void when310to56then4dot47() {
         double exp = 4.47;
         int x1 = 3;
         int y1 = 10;
