@@ -31,4 +31,22 @@ class PointTest {
         double out = pointTwo.distance(pointOne);
         Assert.assertEquals(exp, out, 0.01);
     }
+
+    @Test
+    public void when0minus33to313then7() {
+        double exp = 5;
+        Point pointTwo = new Point(0, -3, 3);
+        Point pointOne = new Point(3, 1, 3);
+        double out = pointTwo.distance3d(pointOne);
+        Assert.assertEquals(exp, out, 0.01);
+    }
+
+    @Test
+    public void when11minus5tominus12minus3then3() {
+        double exp = 3;
+        Point pointTwo = new Point(1, 1, -5);
+        Point pointOne = new Point(-1, 2, -3);
+        double out = pointTwo.distance3d(pointOne);
+        Assert.assertEquals(exp, out, 0.01);
+    }
 }
